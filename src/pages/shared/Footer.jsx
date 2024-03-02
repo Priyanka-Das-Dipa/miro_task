@@ -6,7 +6,7 @@ import { IoRemoveOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="py-14">
+    <div className="">
       <footer className="footer p-16 bg-[#02033B] text-base-content">
         {/* first row */}
         <nav className="text-white space-y-4">
@@ -88,7 +88,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <p>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p>
+      {/* <p>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p> */}
     </div>
   );
 };

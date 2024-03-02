@@ -1,10 +1,12 @@
 import Banner from "./Banner";
+import TrustedSection from "./TrustedSection";
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="space-y-24">
             <Banner/>
+            <TrustedSection></TrustedSection>
         </div>
     );
 };

@@ -6,9 +6,9 @@ import img4 from "../../images/Vector.png"
 import img5 from "../../images/Vector (1).png"
 const TrustedSection = () => {
     return (
-        <div className="border p-5  container mx-auto">
+        <div className=" p-5  container mx-auto">
             <h1 className="text-center mb-5">Trusted by 45M+ users</h1>
-            <div className="flex gap-5 justify-evenly items-center">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-5 justify-between items-center">
                 <img src={img1} alt="trusted_Image" />
                 <img src={img2} alt="trusted_Image" />
                 <img src={img3} alt="trusted_Image" />

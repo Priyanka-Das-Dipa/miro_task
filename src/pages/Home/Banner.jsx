@@ -4,9 +4,9 @@ import { FaArrowRight } from "react-icons/fa6";
 const Banner = () => {
   return (
     <div className="">
-      <div className="flex gap-10 items-center justify-center">
+      <div className="flex gap-5 items-center justify-between">
         <div className="space-y-3">
-          <h1 className="text-[#050038] text-3xl font-bold">
+          <h1 className="text-[#050038] text-5xl font-bold">
             Take ideas from <br /> better to best
           </h1>
           <p className=" text-[#050038] text-2xl">
@@ -25,7 +25,7 @@ const Banner = () => {
             </button>
             <p className="text-xs">Collaborate with your team within minutes</p>
           </div>
-          <div className="bg-[#F5F5F7]  p-10 flex items-center gap-5 rounded-lg">
+          <div className="bg-[#F5F5F7] p-5 md:p-10 flex items-center gap-5 rounded-lg">
             <div>
               <p className="flex text-2xl text-[#FF9D48]">
                 <IoIosStar />
@@ -45,6 +45,7 @@ const Banner = () => {
           <img
             src="https://i.ibb.co/Th3jkrf/headerimage-without-text-png.png"
             alt=" Banner Image"
+           className="640px"
           />
         </div>
       </div>

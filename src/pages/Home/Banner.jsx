@@ -21,7 +21,7 @@ const Banner = () => {
                 className=" rounded-2xl border px-14 py-2"
               />
               <br />
-              <button className="rounded-2xl border px-24 py-2 mt-3 bg-[#4262FF] text-white flex items-center gap-1 justify-center">
+              <button className="rounded-2xl border px-24 py-2 mt-3 bg-secondary text-white flex items-center gap-1 justify-center">
                 Sign up free <FaArrowRight />
               </button>
               <p className="text-xs">

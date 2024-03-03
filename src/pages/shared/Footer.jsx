@@ -7,7 +7,7 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-    <div className="bg-[#02033B]">
+    <div className="bg-[#02033B] md:pb-10">
       <footer className="footer p-16  text-base-content">
         {/* first row */}
         <nav className="text-white space-y-4">

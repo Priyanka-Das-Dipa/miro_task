@@ -15,7 +15,7 @@ const CollaborateSection = () => {
         </div>
         <div className=" px-12 text-left py-5">
             <h1 className="font-bold text-2xl">Security first</h1>
-            <p className="text-base mt-5">We treat your data like you would - with the utmost care. We fellow industry-leading security standards and give you tools to protect intellectual property. Learn more to our  <br /> <span className="text-[#4262FF]">Trust Center</span>.</p>
+            <p className="text-base mt-5">We treat your data like you would - with the utmost care. We fellow industry-leading security standards and give you tools to protect intellectual property. Learn more to our <span className="text-[#4262FF]">Trust Center</span>.</p>
         </div>
       </div>
       <div className="items-center flex justify-center my-5">

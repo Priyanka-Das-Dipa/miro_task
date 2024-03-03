@@ -2,8 +2,8 @@
 import img1 from "../../images/Walmart_Index_Only.svg.png"
 import img2 from "../../images/cisco.svg.png"
 import img3 from "../../images/Volvo_Index_Only.svg.png"
-import img4 from "../../images/Vector.png"
-import img5 from "../../images/Vector (1).png"
+import img4 from "../../images/deloitte.svg.png"
+import img5 from "../../images/okta.svg.png"
 const TrustedSection = () => {
     return (
         <div className=" p-5  container mx-auto">

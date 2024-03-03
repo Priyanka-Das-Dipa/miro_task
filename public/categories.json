@@ -1,0 +1,62 @@
+{
+  "categories_1": [
+    {
+      "index": 1,
+      "name": "Brainstorming"
+    },
+    {
+      "index": 2,
+      "name": "Diagramming"
+    },
+    {
+      "index": 3,
+      "name": "Meetings & Workshops"
+    },
+    {
+      "index": 4,
+      "name": "Scrum Events"
+    },
+    {
+      "index": 5,
+      "name": "Mapping"
+    },
+    {
+      "index": 6,
+      "name": "Research & Design"
+    },
+    {
+      "index": 7,
+      "name": "Strategic Planning"
+    }
+  ],
+  "categories_2": [
+    {
+      "index": 1,
+      "name": "UX & Design"
+    },
+    {
+      "index": 2,
+      "name": "Marketing"
+    },
+    {
+      "index": 3,
+      "name": "Product Management"
+    },
+    {
+      "index": 4,
+      "name": "Engineering"
+    },
+    {
+      "index": 5,
+      "name": "Consultants"
+    },
+    {
+      "index": 6,
+      "name": "Agile Coaches"
+    },
+    {
+      "index": 7,
+      "name": "Sales"
+    }
+  ]
+}

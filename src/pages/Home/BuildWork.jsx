@@ -1,13 +1,41 @@
-import { FaArrowRight } from "react-icons/fa6";
+
 import image from "../../images/div.png";
+import { useEffect, useState } from "react";
+import LearnMoreBtn from "../../components/LearnMoreBtn";
 
 const BuildWork = () => {
+  const [categories1, setCategories1] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("/categories.json");
+        const data = await response.json();
+        setCategories1(data.categories_1);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
   return (
     <div>
       <h1 className="text-5xl font-bold text-left">
         Built for the way you work
       </h1>
-      <div className="flex items-center">
+      <div className="flex justify-between items-center mt-3">
+        {categories1?.map((category, index) => (
+          <div key={index} >
+            <div className="space-y-4 ">
+              <h3 className="font-normal text-sm border rounded-3xl px-3 py-2 ">
+                {category.name}
+              </h3>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="flex items-start mt-5">
         <div className="space-y-4">
           <h3 className="font-normal text-lg">Brainstorming</h3>
           <p className="font-normal text-lg">
@@ -15,10 +43,7 @@ const BuildWork = () => {
             notes, images, mind maps, videos, drawing capabilities — the list
             goes on.
           </p>
-          <button className="underline text-[#4262FF] flex items-center mt-6">
-            {" "}
-            Learn more <FaArrowRight />{" "}
-          </button>
+          <LearnMoreBtn></LearnMoreBtn>
         </div>
         <div>
           <img src={image} alt="div image" />

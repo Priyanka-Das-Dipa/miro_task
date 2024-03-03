@@ -1,7 +1,8 @@
-
 import image from "../../images/div.png";
 import { useEffect, useState } from "react";
 import LearnMoreBtn from "../../components/LearnMoreBtn";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 
 const BuildWork = () => {
   const [categories1, setCategories1] = useState([]);
@@ -24,31 +25,35 @@ const BuildWork = () => {
       <h1 className="text-5xl font-bold text-left">
         Built for the way you work
       </h1>
-      <div className="flex flex-wrap gap-2 items-center  mt-3">
-        {categories1?.map((category, index) => (
-          <div key={index} >
-            <div className="space-y-4 ">
-              <h3 className="font-normal text-sm border rounded-3xl px-3 py-2 ">
-                {category.name}
-              </h3>
+      <Tabs>
+        <div className="flex flex-wrap gap-2 items-center  mt-3">
+          {categories1?.map((category, index) => (
+            <TabList key={index}>
+              <div className="space-y-4 ">
+                <Tab className="font-normal text-sm border rounded-3xl px-3 py-2 ">
+                  {category.name}
+                </Tab>
+              </div>
+            </TabList>
+          ))}
+        </div>
+        <TabPanel>
+          <div className="flex flex-col lg:flex-row gap-5 items-start mt-10">
+            <div className="space-y-4">
+              <h3 className="font-normal text-lg">Brainstorming</h3>
+              <p className="font-normal text-lg w-1/2">
+                Unleash creative ideas and build on them with the help of sticky
+                notes, images, mind maps, videos, drawing capabilities — the
+                list goes on.
+              </p>
+              <LearnMoreBtn></LearnMoreBtn>
+            </div>
+            <div className="">
+              <img src={image} alt="div image" />
             </div>
           </div>
-        ))}
-      </div>
-      <div className="flex flex-col lg:flex-row gap-5 items-start mt-10">
-        <div className="space-y-4">
-          <h3 className="font-normal text-lg">Brainstorming</h3>
-          <p className="font-normal text-lg w-1/2">
-            Unleash creative ideas and build on them with the help of sticky
-            notes, images, mind maps, videos, drawing capabilities — the list
-            goes on.
-          </p>
-          <LearnMoreBtn></LearnMoreBtn>
-        </div>
-        <div className="">
-          <img src={image} alt="div image" />
-        </div>
-      </div>
+        </TabPanel>
+      </Tabs>
     </div>
   );
 };

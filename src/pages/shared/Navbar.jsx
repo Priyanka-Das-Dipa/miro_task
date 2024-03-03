@@ -141,11 +141,11 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <Link href="" className="text-lg font-normal mr-3">
+          <Link to="/signIn" className="text-lg font-normal mr-3">
             Login
           </Link>
 
-          <Link className="btn rounded-3xl bg-secondary text-white">
+          <Link to="/signUp" className="btn rounded-3xl bg-secondary text-white">
             Sign up free →
           </Link>
         </div>

@@ -1,6 +1,9 @@
 import Banner from "./Banner";
+import BuildTeam from "./BuildTeam";
+import BuildWork from "./BuildWork";
 import CollaborateSection from "./CollaborateSection";
 import ConnectTools from "./ConnectTools";
+import ImageSection from "./ImageSection";
 import TrustedSection from "./TrustedSection";
 import WorkTogether from "./WorkTogether";
 
@@ -13,6 +16,9 @@ const Home = () => {
             <CollaborateSection></CollaborateSection>
             <WorkTogether></WorkTogether>
             <ConnectTools></ConnectTools>
+            <ImageSection></ImageSection>
+            <BuildWork></BuildWork>
+            <BuildTeam></BuildTeam>
         </div>
     );
 };

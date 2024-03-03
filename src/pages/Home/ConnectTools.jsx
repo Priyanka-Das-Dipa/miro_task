@@ -4,7 +4,7 @@ import LearnMoreBtn from "../../components/LearnMoreBtn";
 
 const ConnectTools = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex flex-col md:flex-row justify-between items-center">
       <div>
         <img src={img} alt="section image" />
       </div>

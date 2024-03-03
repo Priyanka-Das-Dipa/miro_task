@@ -3,9 +3,9 @@ import LearnMoreBtn from "../../components/LearnMoreBtn";
 
 const WorkTogether = () => {
   return (
-    <div className="flex items-center justify-between gap-10">
-      <div className="space-y-2">
-        <h1 className="text-5xl font-bold">
+    <div className="flex flex-col md:flex-row  items-center justify-center gap-10">
+      <div className="space-y-5 md:w-1/2">
+        <h1 className="text-5xl font-bold text-primary">
           Work together, <br /> wherever you work
         </h1>
         <p className="text-lg font-normal">
@@ -15,7 +15,7 @@ const WorkTogether = () => {
         </p>
         <LearnMoreBtn></LearnMoreBtn>
       </div>
-      <div>
+      <div className="">
         <img src={img} alt="" />
       </div>
     </div>

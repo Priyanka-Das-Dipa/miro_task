@@ -28,7 +28,7 @@ const BuildTeam = () => {
         <h1 className="text-5xl font-bold text-left">
           Built for all kinds of teams
         </h1>
-        <div className="flex justify-between items-center mt-3">
+        <div className="flex flex-wrap gap-2 items-center mt-3">
           {categories2?.map((category, index) => (
             <div key={index}>
               <div className="space-y-4 ">
@@ -39,8 +39,8 @@ const BuildTeam = () => {
             </div>
           ))}
         </div>
-        <div className="flex items-start justify-between mt-5">
-          <div className="space-y-4">
+        <div className="flex flex-wrap items-start justify-between mt-10">
+          <div className="space-y-4 md:w-1/3 w-full">
             <h3 className="font-normal text-lg flex gap-1 items-center">
               <FaCheck /> Build low-fi wireframes
             </h3>

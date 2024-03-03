@@ -27,9 +27,9 @@ const BestTeam = () => {
         </button>
       </div>
       <div className="mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-5">
           {items?.map((item, index) => (
-            <div key={index} className="space-y-10 w-[350px]">
+            <div key={index} className="space-y-10 w-[350px] md:w-full">
               <div>
                 <img src={item.image} alt="User" />
               </div>

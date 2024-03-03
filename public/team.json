@@ -1,0 +1,31 @@
+{
+ "items":[
+      {
+        "name": "Productivity Planner",
+        "description": "“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”",
+        "user": {
+          "name": "Roxanne Mustafa",
+          "designation": "Design Team Lead at VMware",
+          "image": "https://example.com/images/john_doe.jpg"
+        }
+      },
+      {
+        "name": "Recipe App",
+        "description": "“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”",
+        "user": {
+          "name": "Jane Ashley",
+          "designation": "Head of Design at DocuSign",
+          "image": "https://example.com/images/jane_smith.jpg"
+        }
+      },
+      {
+        "name": "Fitness Tracker",
+        "description": "“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”",
+        "user": {
+          "name": "Laura Baird",
+          "designation": "Associate Design Director at frog",
+          "image": "https://example.com/images/alex_johnson.jpg"
+        }
+      }
+    ]
+  }

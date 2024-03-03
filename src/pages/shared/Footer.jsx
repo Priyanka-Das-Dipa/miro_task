@@ -3,11 +3,12 @@ import { FaSquareYoutube } from "react-icons/fa6";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaTwitterSquare } from "react-icons/fa";
 import { IoRemoveOutline } from "react-icons/io5";
+import "./footer.css"
 
 const Footer = () => {
   return (
-    <div className="">
-      <footer className="footer p-16 bg-[#02033B] text-base-content">
+    <div className="bg-[#02033B]">
+      <footer className="footer p-16  text-base-content">
         {/* first row */}
         <nav className="text-white space-y-4">
           <h6 className="text-2xl font-bold">Scan. Detect. Remove.</h6>
@@ -67,7 +68,7 @@ const Footer = () => {
         </nav>
         {/* third row */}
         <nav>
-          <div className="text-left bg-[#FFC247] p-10 rounded-xl space-y-3">
+          <div className="text-left footerImg p-10 rounded-xl space-y-3">
             <h1 className="text-[#02033B] font-bold text-xl">
               Sign up to our newsletter
             </h1>
@@ -88,7 +89,14 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      {/* <p>Apple, the Apple logo, and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Android, Google Play and the Google Play logo are trademarks of Google LLC.</p> */}
+      <div className="container mx-auto text-white ">
+        <p className="md:w-2/3 w-full">
+          Apple, the Apple logo, and iPhone are trademarks of Apple Inc.,
+          registered in the U.S. and other countries. App Store is a service
+          mark of Apple Inc. Android, Google Play and the Google Play logo are
+          trademarks of Google LLC.
+        </p>
+      </div>
     </div>
   );
 };

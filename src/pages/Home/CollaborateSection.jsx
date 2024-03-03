@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const CollaborateSection = () => {
   return (
     <div className="container mx-auto">
-      <h1 className="text-center text-5xl text-[#050038] font-bold">Collaborate without <br />constraints</h1>
+      <h1 className="text-center text-5xl text-primary font-bold">Collaborate without <br />constraints</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
         <div className=" px-12 text-left py-5">
             <h1 className="font-bold text-2xl">Free forever</h1>

@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import BestTeam from "./BestTeam";
 import BuildTeam from "./BuildTeam";
 import BuildWork from "./BuildWork";
 import CollaborateSection from "./CollaborateSection";
@@ -19,6 +20,7 @@ const Home = () => {
             <ImageSection></ImageSection>
             <BuildWork></BuildWork>
             <BuildTeam></BuildTeam>
+            <BestTeam></BestTeam>
         </div>
     );
 };

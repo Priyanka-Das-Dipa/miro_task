@@ -1,0 +1,5 @@
+.footerImg {
+    background:linear-gradient(#ffc247e8, #ffc247e8), url("../../images/footer.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}

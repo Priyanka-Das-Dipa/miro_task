@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const Banner = () => {
   return (
     <div className="">
-      <div className="flex gap-5 items-center justify-between">
+      <div className="flex flex-wrap gap-5 items-center justify-between">
         <div className="space-y-3">
           <h1 className="text-[#050038] text-5xl font-bold">
             Take ideas from <br /> better to best

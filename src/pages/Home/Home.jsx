@@ -1,6 +1,8 @@
 import Banner from "./Banner";
 import CollaborateSection from "./CollaborateSection";
+import ConnectTools from "./ConnectTools";
 import TrustedSection from "./TrustedSection";
+import WorkTogether from "./WorkTogether";
 
 
 const Home = () => {
@@ -9,6 +11,8 @@ const Home = () => {
             <Banner/>
             <TrustedSection></TrustedSection>
             <CollaborateSection></CollaborateSection>
+            <WorkTogether></WorkTogether>
+            <ConnectTools></ConnectTools>
         </div>
     );
 };

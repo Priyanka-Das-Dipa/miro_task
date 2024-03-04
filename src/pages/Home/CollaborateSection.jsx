@@ -2,8 +2,8 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const CollaborateSection = () => {
   return (
-    <div className="container mx-auto">
-      <span className="uppercase bg-[#FFD02F] font-bold px-4 py-2 rounded-3xl rotate-2">
+    <div className="container relative mx-auto">
+      <span className="uppercase absolute left-1/2 -top-16 bg-[#FFD02F] font-bold px-4 py-2 rounded-3xl rotate-6">
         Your Idea Starts Here
       </span>
       <div className="">
